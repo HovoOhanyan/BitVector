@@ -19,8 +19,7 @@ long* Bitvector::get_arr() const
 }
 void Bitvector::set(short index)
 {
-    if (index >= (m_size * 64))
-    {
+    if (index >= (m_size * 64)) {
         std::cout << "Error" << std::endl;
         return ;
     }
@@ -39,8 +38,7 @@ void Bitvector::reset(short index)
 {
     m_index = index / 64;
 
-    if (index >= (m_size * 64))
-    {
+    if (index >= (m_size * 64)) {
         std::cout << "Error" << std::endl;
         return;
     }
