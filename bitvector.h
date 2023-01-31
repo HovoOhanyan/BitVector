@@ -18,6 +18,7 @@ private:
     long* m_arr;
     short m_size;
     int m_index;
+    int m_maxbit;
 };
 
 
