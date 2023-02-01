@@ -8,7 +8,7 @@ public:
     Bitvector() = default;
 public:
     short get_size() const;
-    long* get_arr() const;
+    unsigned long* get_arr() const;
     int get_index() const;
 
 public:
