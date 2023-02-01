@@ -5,7 +5,7 @@ Bitvector::Bitvector(short size)
 {
     m_size = ((size - 1) / 64) + 1;
     m_maxbit = size;
-    m_arr = new long[m_size];
+    m_arr = new unsigned long[m_size];
 }
 
 short Bitvector::get_size() const
@@ -13,7 +13,7 @@ short Bitvector::get_size() const
     return m_size;
 }
 
-long* Bitvector::get_arr() const
+unsigned long* Bitvector::get_arr() const
 {
     return m_arr;
 }
