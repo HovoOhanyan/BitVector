@@ -10,7 +10,6 @@ public:
     short get_size() const;
     unsigned long* get_arr() const;
     int get_index() const;
-
 public:
     void set(short index);
     void reset(short index);
