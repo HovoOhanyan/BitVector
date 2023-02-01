@@ -15,7 +15,7 @@ public:
     void set(short index);
     void reset(short index);
 private:
-    long* m_arr;
+    unsigned long* m_arr;
     short m_size;
     int m_index;
     int m_maxbit;
