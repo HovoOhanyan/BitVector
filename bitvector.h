@@ -6,6 +6,7 @@ class Bitvector
 public:
     Bitvector(short size);
     Bitvector() = default;
+    ~Bitvector();
 public:
     short get_size() const;
     unsigned long* get_arr() const;
