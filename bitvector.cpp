@@ -8,6 +8,12 @@ Bitvector::Bitvector(short size)
     m_arr = new unsigned long[m_size];
 }
 
+Bitvector::~Bitvector()
+{
+    delete [] m_arr;
+    m_arr = nullptr;
+}
+
 short Bitvector::get_size() const
 {
     return m_size;
